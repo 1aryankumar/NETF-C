@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap");
 
 * {
   padding: 0;
@@ -83,7 +83,6 @@ nav button {
   z-index: 20;
 }
 
-
 .btn {
   padding: 3px 7px;
   font-weight: 400;
@@ -95,7 +94,7 @@ nav button {
   background-color: red;
   color: white;
   border-color: rgba(0, 0, 0, 0);
-  font-weight:500;
+  font-weight: 500;
 }
 
 .btn-red {
@@ -127,40 +126,38 @@ nav button {
   cursor: pointer;
 }
 
-.one
-{
+.one {
   display: flex;
-    justify-content: center;
-    max-width: 70vw;
-    margin: auto;
-    color: white;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
-.secimg{
+.secimg {
   position: relative;
 }
-.secimg img{
+.secimg img {
   width: 555px;
   position: relative;
   z-index: 10;
 }
-.secimg video{
+.secimg video {
   position: absolute;
   top: 51px;
   right: 0;
-  
 }
 
-.one > div{
+.one > div {
   display: flex;
   flex-direction: column;
 }
-.one > div :first-child{
+.one > div :first-child {
   font-size: 48px;
   font-weight: bolder;
 }
-.onr > div :nth-child(2){
+.onr > div :nth-child(2) {
   font-size: 24px;
   font-weight: 400;
   margin-top: 20px;
