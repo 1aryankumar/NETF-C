@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -75,9 +77,12 @@ nav button {
 }
 
 .separation {
-  height: 6px;
-  background-color: rgb(38, 37, 37);
+  height: 7px;
+  background-color: rgb(46, 44, 44);
+  position: relative;
+  z-index: 20;
 }
+
 
 .btn {
   padding: 3px 7px;
@@ -120,4 +125,43 @@ nav button {
   border-radius: 4px;
   border: 1px solid white;
   cursor: pointer;
+}
+
+.one
+{
+  display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.secimg{
+  position: relative;
+}
+.secimg img{
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+.secimg video{
+  position: absolute;
+  top: 51px;
+  right: 0;
+  
+}
+
+.one > div{
+  display: flex;
+  flex-direction: column;
+}
+.one > div :first-child{
+  font-size: 48px;
+  font-weight: bolder;
+}
+.onr > div :nth-child(2){
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 20px;
 }
