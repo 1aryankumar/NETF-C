@@ -21,7 +21,7 @@ body {
 .main .box {
   height: 644px;
   width: 100%;
-  opacity: 0.7;
+  opacity: 0.69;
   background-color: black;
   position: absolute;
   top: 0;
@@ -58,7 +58,7 @@ nav button {
   padding: 0 30px;
 }
 
-.zero > :first-child {
+.zero > :nth-child(1) {
   font-weight: bolder;
   font-size: 48px;
   text-align: center;
@@ -84,10 +84,13 @@ nav button {
 }
 
 .btn {
-  padding: 3px 7px;
-  font-weight: 400;
-  background-color: white;
-  border-color: rgba(0, 0, 0, 0);
+  padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
 }
 
 .btn-red-sm {
@@ -168,8 +171,7 @@ nav button {
 }
 .one > div :nth-child(2) {
   font-size: 24px;
-  font-weight: 400;
-  margin-top: 20px;
+ 
 }
 
 .faq h2 {
@@ -180,11 +182,12 @@ nav button {
   background-color: black;
   color: white;
   padding: 34px;
-  font-size: 24px;
+ 
 }
 
 .faqbox:hover {
   background-color: #414141;
+  color: white;
 }
 .faqbox {
   transition: all 1s ease-out;
