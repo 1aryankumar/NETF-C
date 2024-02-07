@@ -14,12 +14,12 @@ body {
   background-position: center center;
   background-size: max(1200px, 100vw);
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 644px;
   position: relative;
 }
 
 .main .box {
-  height: 70vh;
+  height: 644px;
   width: 100%;
   opacity: 0.7;
   background-color: black;
@@ -115,6 +115,7 @@ nav button {
   border-color: rgba(255, 255, 255, 0.2);
   font-weight: 600;
   color: whitesmoke;
+
 }
 
 .btn-lang {
@@ -124,6 +125,12 @@ nav button {
   border-radius: 4px;
   border: 1px solid white;
   cursor: pointer;
+}
+.zero-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
 
 .one {
@@ -137,13 +144,7 @@ nav button {
 
 }
 
-@media screen  and (max-width:1300px)  {
-  .one{
-    flex-wrap: wrap;
-  }
 
-  
-}
 .secimg {
   position: relative;
 }
@@ -208,7 +209,7 @@ nav button {
   display: flex;
  justify-content: center;
   align-items: center;
-  padding: 4px;
+  padding: 12px;
 
 }
 
@@ -232,7 +233,7 @@ footer .ques{
   footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
-  
+   gap: 25px;
   }
   }
 
@@ -246,4 +247,43 @@ font-size: 14px;
   display: flex;
   flex-direction: column;
   gap: 23px;
+}
+
+@media screen  and (max-width:1300px)  {
+  .one{
+    flex-wrap: wrap;
+  }
+ 
+  .secimg img {
+    width: 305px;
+ 
+  }
+  .secimg video {
+    
+    width: 305px;
+  }
+  .zero> :nth-child(1){
+    font-size: 32px;
+
+  }
+  .zero> :nth-child(2){
+    font-size: 18px;
+    
+  }
+  .zero> :nth-child(3){
+    font-size: 18px;
+    
+  }
+  nav{
+    max-width: 90vw;
+  }
+  .faq > div{
+    max-width: 90vw;
+  
+  }
+
+  .main input{
+    padding: 7px 53px 8px 14px ;
+  }
+
 }
