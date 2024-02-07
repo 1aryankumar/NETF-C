@@ -284,5 +284,8 @@ font-size: 14px;
   .main input{
     padding: 7px 53px 8px 14px ;
   }
-
+.faq h2{
+  text-align: center;
+  font-size: 32px;
+}
 }
