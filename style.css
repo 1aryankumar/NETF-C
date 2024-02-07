@@ -157,8 +157,25 @@ nav button {
   font-size: 48px;
   font-weight: bolder;
 }
-.onr > div :nth-child(2) {
+.one > div :nth-child(2) {
   font-size: 24px;
   font-weight: 400;
   margin-top: 20px;
+}
+
+.faq h2{
+  text-align: center;
+}
+.faq{
+  background-color: black;
+  color: white;
+  padding: 34px;
+}
+.faqbox{
+  display: flex;
+  background-color: gray;
+  padding: 24px;
+  max-width:  40vw;
+  margin: 14px auto;
+  justify-content: space-between;
 }
